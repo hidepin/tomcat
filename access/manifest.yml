@@ -1,0 +1,13 @@
+module_version: 1.0
+
+var:
+  - name: paths
+    default:
+      - /var/log/tomcat8/*access_log*
+
+ingest_pipeline: ingest/pipeline.json
+prospector: config/access.yml
+
+requires.processors:
+- name: geoip
+  plugin: ingest-geoip

@@ -1,0 +1,19 @@
+== tomcat module
+
+This module parses access logs created by the
+tomcat server.
+
+[float]
+=== Compatibility
+
+This module requires the
+{elasticsearch-plugins}/ingest-geoip.html[ingest-geoip] Elasticsearch plugins.
+
+[float]
+=== Access logs fileset settings
+
+[float]
+==== var.paths
+
+An array of paths where to look for the log files. If left empty, Filebeat
+will choose the paths depending on your operating systems.

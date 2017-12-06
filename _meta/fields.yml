@@ -1,0 +1,11 @@
+- key: tomcat
+  title: "tomcat"
+  description: >
+    tomcat Module
+  short_config: true
+  fields:
+    - name: tomcat
+      type: group
+      description: >
+        tomcat fields.
+      fields:

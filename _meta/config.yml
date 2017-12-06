@@ -1,0 +1,6 @@
+- module: tomcat
+  # Access logs
+  access:
+    enabled: true
+
+    #var.paths:

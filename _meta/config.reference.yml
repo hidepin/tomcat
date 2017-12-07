@@ -6,3 +6,9 @@
     #var.paths:
 
     #prospector:
+  #gclog:
+    #enabled: true
+
+    #var.paths:
+
+    #prospector:

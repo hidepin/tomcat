@@ -4,3 +4,8 @@
     enabled: true
 
     #var.paths:
+  # gc logs
+  gclog:
+    enabled: true
+
+    #var.paths:

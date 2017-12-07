@@ -1,0 +1,73 @@
+- name: gclog
+  type: group
+  description: >
+    Contains fields for the Tomcat HTTPD gc logs.
+  fields:
+    - name: jvmuptime
+      type: float
+      description: >
+        jvm uptime
+    - name: type
+      type: keyword
+      description: >
+        gc type
+    - name: reason
+      type: keyword
+      description: >
+        gc reason
+    - name: cms_failed_reason
+      type: keyword
+      description: >
+        cms failed reason
+    - name: pattern
+      type: keyword
+      description: >
+        gc pattern
+    - name: young_used_before_gc
+      type: long
+      description: >
+        young userd before gc
+    - name: young_used_after_gc
+      type: long
+      description: >
+        young userd after gc
+    - name: young_size
+      type: long
+      description: >
+        young size
+    - name: heap_used_before_gc
+      type: long
+      description: >
+        heap used before gc
+    - name: heap_used_after_gc
+      type: long
+      description: >
+        heap used after gc
+    - name: heap_size
+      type: long
+      description: >
+        heap size
+    - name: metaspace_used_before_gc
+      type: long
+      description: >
+        metaspace used before gc
+    - name: metaspace_used_after_gc
+      type: long
+      description: >
+        metaspace used after gc
+    - name: metaspace_size
+      type: long
+      description: >
+        metaspace size
+    - name: usertime
+      type: float
+      description: >
+        user time
+    - name: systime
+      type: float
+      description: >
+        sys time
+    - name: realtime
+      type: float
+      description: >
+        real time
